@@ -5,9 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title>
     <style>
+        body{
+            
+        }
         .icon{
             border-radius: 25px;
             border:1px solid #efea5a;
+            
 
             
         }
@@ -15,6 +19,12 @@
             font-family:fantasy, sans-serif;
             color:black;
             font-weight: bolder;
+            text-align: center;
+            background:linear-gradient(80deg,#00b872,#fcbf49);
+            padding: 3px 8px;
+            border-radius: 10px;
+            font-weight: 600;
+            text-decoration: none;
         }
         .sumario{
             color:black;
@@ -43,10 +53,15 @@
         }
         .titulo{
             font-family:sans-serif;
+            background:linear-gradient(80deg,#239bd3,#0bda8a,#239bd3);
+            padding: 20px 400px;
+            border-radius: 400px;
+            
+            
             
             }
         body{
-            background:linear-gradient(15deg,#0ce29b,#2477e4,#0bd45f);
+            background:url("Images/imagem-fundo.jpg")
            
         }
         .foto{
@@ -54,29 +69,30 @@
             border:5px solid #efea5a;
             
         }
+        
     </style>
 </head>
 <body>
     
-    <h1 class="titulo">Guilherme de Souza Almeida</h1>
+    <h1 class="titulo">Guilherme de Souza Almeida     </h1>
     <a href="Images/Guilherme.jpg">
         <img  class="foto" src="Images/Guilherme.jpg" alt="Foto Guilherme" width="200px">
     </a>
     <h1 class="indice"  ><strong>Índice</strong></h1>
     <p>
-    <ol class="sumario">
+    <ul class="sumario">
         <li><a href="#discrição">Sobre mim</a></li>
         <li><a href="#habilidades">Habilidades</a></li>
         <li><a href="#social">Social</a></li>
-    </ol>
+    </ul>
     </p>
     <p class ="titulo" id ="discrição">
         Estudo <strong>desenvolvimento de software</strong> na <strong class="trybe">Trybe</strong>.<br>Tenho 26 anos e sou <em>Brasileiro</em>. Moro na cidade de <em>Betim</em> no estado de <em>Minas Gerais</em>.
 
     </p>
-    <h2 id="habilidades"><strong>Habilidades</strong></h2>
+    <h2 class="habilidades" id="habilidades"><strong>Habilidades</strong></h2>
     <p>
-        <ul>
+        <ul class="habilidades">
             <li class="pontual">Pontual</li>
             <li calss="persist">Persistente</li>
             <li class="confiante"><strong>Confiante</strong></li>
@@ -87,8 +103,10 @@
       
     <a class="social" target="_blank" href="https://www.linkedin.com/in/guilherme-almeidaa/"><img  class ="icon"src="Images/Linkedin.png" alt="Foto ícone linkedin" width="25px"> Linkedin
     </a><br>
+    <a class="social" target="_blank" href="https://github.com/Guilherme-Almeidaa"><img class="icon" src="Images/github.png" alt="ìcone github" width="25px">Github </a><br>
     <a  class="social" target="_blank" href="https://www.instagram.com/gui_67/?hl=pt-br"><img class="icon" src="Images/Instagram.png" alt="Foto ícon Instagram" width="25px"> Instagram</a><br>
-    <a class="social" target="_blank" href="https://www.facebook.com/profile.php?id=100009324567884"><img class="icon" src="Images/facebook.png" alt="Foto ícone facebook" width="25px">Facebook </a>
+    <a class="social" target="_blank" href="https://www.facebook.com/profile.php?id=100009324567884"><img class="icon" src="Images/facebook.png" alt="Foto ícone facebook" width="25px">Facebook </a><br>
+
     <br>
     <h3>Indicações</h3>
     <a target="_blank" href="https://www.cursoemvideo.com/">Blog
