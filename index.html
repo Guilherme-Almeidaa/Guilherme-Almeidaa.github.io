@@ -1,109 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title>
-    <style>
-        .icon{
-            border-radius: 25px;
-            border:1px solid #efea5a;
-            
+    <link rel="stylesheet" type="text/css" href="style.css" media="all">
 
-            
-        }
-        .social{
-            font-family:fantasy, sans-serif;
-            color:black;
-            font-weight: bolder;
-            text-align: center;
-            background:linear-gradient(80deg,#00b872,#fcbf49);
-            padding: 3px 8px;
-            border-radius: 10px;
-            font-weight: 600;
-            text-decoration: none;
-        }
-        .sumario{
-            color:black
-             }
-        .habilidades{
-            color:black;
-            font-size: 20px;
-            font-family:Georgia, 'Times New Roman', Times, serif;
-            background:linear-gradient(80deg,#133444,#19be7f,#053850);
-            padding: 20px 400px;
-            border-radius: 400px;
-            border:5px solid #efea5a
-        }
-        .indice{
-            font-size:25px;
-            color:black;
-            }
-        .confiante{
-            font-size:21px;
-        }
-        .persist{
-            font-size:19;
-        }
-        .pontual{
-         font-size:17px;  
-        }
-        em{
-            text-decoration:underline;
 
-        }
-        .titulo{
-            font-family:sans-serif;
-            background:linear-gradient(80deg,#133444,#19be7f,#053850);
-            padding: 20px 400px;
-            border-radius: 400px;
-            border:5px solid #efea5a
-            }
-        body{
-            background:linear-gradient(80deg,#133444,#19be7f,#053850);
-            border: #efea5a;
-            text-align: center;
-            font-family:Verdana, Geneva, Tahoma, sans-serif
-            
-           }
-        .foto{
-            border-radius: 200px;
-            border:5px solid #efea5a;
-            }
-        
-    </style>
 </head>
-<body>
-    
-    <h1 class="titulo">Guilherme de Souza Almeida     </h1>
-    <p class="sumario"> 
-        <a href="#discrição">Sobre mim</a>
-        <a href="#habilidades">Habilidades</a>
-        <a href="#social">Social</a>
-        <a href="#educacao">Educação</a>
-    </p>
-    <a href="Images/Guilherme.jpg">
-        <img  class="foto" src="Images/Guilherme.jpg" alt="Foto Guilherme" width="200px">
-    </a>
-    
-    
-    </p>
-    <p class ="titulo" id ="discrição">
-        <strong>Sobre mim!</strong><br>
-        Eu, sou o <stron>Guilherme</stron>,tenho 26 anos e sou <em>Brasileiro</em>. Moro na cidade de <em>Betim</em> no estado de <em>Minas Gerais</em>.
-        Desde de pequeno sempre amei tudo sobre tecnologia.Então pensei por que não fazer parte deste universo que gosto tanto?<br>
-        Foi intão que decidi iniciar uma carreira como programador e iniciei o curso de <strong>desenvolvimento de software</strong> na <strong>Trybe</strong>
 
-    </p>
-    <p class="habilidades" id="habilidades"><strong>Habilidades</strong><br><br>
-    
-         
-    Pontual<br>
-    Persistente<br>
-    Trabalho em equipe<br>
-    <strong>Confiante</strong>
+<body>
+
+    <div class="titulo">
+        <h1>Guilherme de Souza Almeida </h1>
+        <p>
+            <a class="sumario" href="#discrição">Sobre mim</a>
+            <a class="sumario" href="#habilidades">Habilidades</a>
+            <a class="sumario" href="#social">Social</a>
+            <a class="sumario" href="#educacao">Educação</a>
+        </p>
+        <div class="foto-bloco">
+            <img class="foto" src="Images/Guilherme.jpg" alt="Foto Guilherme" width="200px">
             
-        
+
+
+        </div>
+
+
+        </p>
+        <div class="sobre"><p id="discrição">
+            <strong>Sobre mim!</strong><br>
+            Eu, sou o <stron>Guilherme</stron>,tenho 26 anos e sou <em>Brasileiro</em>. Moro na cidade de <em>Betim</em>
+            no estado de <em>Minas Gerais</em>.
+            Desde de pequeno sempre amei tudo sobre tecnologia.Então pensei por que não fazer parte deste universo que
+            gosto tanto?<br>
+            Foi intão que decidi iniciar uma carreira como programador e iniciei o curso de <strong>desenvolvimento de
+                software</strong> na <strong>Trybe</strong>
+
+        </p>
+        </div>
+    </div>
+    <p class="habilidades" id="habilidades"><strong>Habilidades</strong><br><br>
+
+
+        <span>Pontual</span><br>
+        Persistente<br>
+        <span>Trabalho em equipe</span><br>
+        <strong>Confiante</strong>
+
+
     </p>
     <p class="habilidades" id="educacao">
         <strong>Educação</strong><br><br>
@@ -111,21 +57,26 @@
         Instituição:<strong>Trybe</strong><br>
         Conclusão:2021
 
-        
+
     </p>
     <h2 id="social">Social</h2>
-      
-    <a class="social" target="_blank" href="https://www.linkedin.com/in/guilherme-almeidaa/"><img  class ="icon"src="Images/Linkedin.png" alt="Foto ícone linkedin" width="25px"> Linkedin
+
+    <a class="social" target="_blank" href="https://www.linkedin.com/in/guilherme-almeidaa/"><img class="icon"
+            src="Images/Linkedin.png" alt="Foto ícone linkedin" width="25px"> Linkedin
     </a><br>
-    <a class="social" target="_blank" href="https://github.com/Guilherme-Almeidaa"><img class="icon" src="Images/github.png" alt="ìcone github" width="25px">Github </a><br>
-    <a  class="social" target="_blank" href="https://www.instagram.com/gui_67/?hl=pt-br"><img class="icon" src="Images/Instagram.png" alt="Foto ícon Instagram" width="25px"> Instagram</a><br>
-    <a class="social" target="_blank" href="https://www.facebook.com/profile.php?id=100009324567884"><img class="icon" src="Images/facebook.png" alt="Foto ícone facebook" width="25px">Facebook </a><br>
+    <a class="social" target="_blank" href="https://github.com/Guilherme-Almeidaa"><img class="icon"
+            src="Images/github.png" alt="ìcone github" width="25px">Github </a><br>
+    <a class="social" target="_blank" href="https://www.instagram.com/gui_67/?hl=pt-br"><img class="icon"
+            src="Images/Instagram.png" alt="Foto ícon Instagram" width="25px"> Instagram</a><br>
+    <a class="social" target="_blank" href="https://www.facebook.com/profile.php?id=100009324567884"><img class="icon"
+            src="Images/facebook.png" alt="Foto ícone facebook" width="25px">Facebook </a><br>
 
     <br>
     <h3>Indicações</h3>
     <a target="_blank" href="https://www.cursoemvideo.com/">Blog
 
     </a>
-    
+
 </body>
+
 </html>
