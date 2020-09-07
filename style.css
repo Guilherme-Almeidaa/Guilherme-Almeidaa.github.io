@@ -1,90 +1,110 @@
-
-.icon{
+.icon {
     border-radius: 25px;
-    border:2px ridge #efea5a;
-    
-
-    
+    border: 2px ridge #efea5a;
 }
-a{
-    font-family:fantasy, sans-serif;
-    color:black;
+
+a {
+    font-family: fantasy, sans-serif;
+    color: black;
     font-weight: bolder;
     text-align: center;
-    background:linear-gradient(80deg,#fafafa,#43909e);
+    background: linear-gradient(80deg, #9cc9dd, #43909e);
     padding: 3px 8px;
     border-radius: 10px;
     font-weight: 600;
     text-decoration: none;
+}
+
+.habilidades {
+    color: black;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #a2d473;
+    padding: 20px 400px;
+    
+    
     
 }
 
-.habilidades{
-    color:black;
-    font-size: 20px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    background:linear-gradient(80deg,#133444,#19be7f,#053850);
-    padding: 20px 400px;
-    border-radius: 400px;
-    border:5px ridge #efea5a;
-    margin:35px;
+.indice {
+    font-size: 25px;
+    color: black;
 }
-.indice{
-    font-size:25px;
-    color:black;
-    }
-.confiante{
-    font-size:21px;
-}
-.persist{
-    font-size:19;
-}
-.pontual{
- font-size:17px;  
-}
-em{
-    text-decoration:underline;
 
+.confiante {
+    font-size: 21px;
 }
-.titulo{
-    font-family:sans-serif;
-    background:linear-gradient(80deg,#133444,#19be7f,#053850);
-    padding: 20px 400px;
-    border-radius: 400px;
-    border:5px ridge #efea5a;
+
+.persist {
+    font-size: 19;
+}
+
+.pontual {
+    font-size: 17px;
+}
+
+em {
+    text-decoration: underline;
+}
+
+.header {
+    font-family: sans-serif;
+    background-color: #abddab;
+    padding: 50px;
+    
     text-align: center;
+    display: block;
+    height: 400px;
+}
+
+.foto {
+    border-radius: 200px;
+    float: left;
+    top:10%
+}
+
+body {
     
    
-    }
-body{
-    background:linear-gradient(80deg,#33434b,#314b40,#3e5a64);
-    border: #efea5a;
     text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
-    
-   }
-.foto{
-    border-radius: 200px;
-    border:5px ridge #efea5a;
-    }
- a:hover {
-        padding: 7px 20px;
-        background:linear-gradient(80deg,#0be290,#10be44);
-    }
-    .foto-bloco{
-        position: relative;
-        float: left;
-        padding: 20px;
-    }
-    .sobre{
-       padding: 20px;
-    }
-    span{
-        color:#103c8f
-    }
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
 
-        
-        
-        
+.foto-bloco {
     
+    display: inline;
+    position: relative;
+    margin: 0px 800px 10px 0px;
     
+   
+}
+
+.link-foto {
+    
+    position: relative;
+    margin-bottom:10px;
+    float: left;
+    top:200px;
+    right:135px;
+    
+}
+
+a:hover {
+    padding: 7px 20px;
+    background: linear-gradient(80deg, #0be290, #10be44);
+}
+
+
+
+.texto-sobre {
+    position: relative;
+    text-align: center;
+    width: 60%;
+    margin-bottom:2px;
+    float: right;
+    top:40px;
+    right:15%;
+
+    
+}
+
